@@ -1,0 +1,24 @@
+.header {
+	position: relative;
+	
+	// position: fixed;
+	// top: 0;
+	// left: 0;
+	// z-index: 1000;
+
+	width: 100%;
+	background-color: #1A1A1A;
+	color: $white;
+	// .header__inner
+	&__inner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+	}
+	// .header__logo
+	&__logo {
+		flex: 1 1 auto;
+	}
+}
+
